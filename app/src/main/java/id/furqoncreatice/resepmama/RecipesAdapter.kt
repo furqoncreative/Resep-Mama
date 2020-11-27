@@ -10,7 +10,7 @@ import id.furqoncreatice.resepmama.databinding.ItemRowRecipesBinding
 class RecipesAdapter(private val listener: onItemClickListener) :
     RecyclerView.Adapter<RecipesAdapter.ViewHolder>() {
 
-    val items = ArrayList<Recipe>()
+    private var items = ArrayList<Recipe>()
 
     fun setItems(items: ArrayList<Recipe>) {
         this.items.clear()
@@ -18,8 +18,18 @@ class RecipesAdapter(private val listener: onItemClickListener) :
         notifyDataSetChanged()
     }
 
+//    fun setFilter(query:String){
+//        items.run { this.filter { it.title.contains(query) } }
+//        notifyDataSetChanged()
+//    }
+
+    fun setFilter(newList:ArrayList<Recipe>){
+        items = newList
+        notifyDataSetChanged()
+    }
+
     interface onItemClickListener {
-        fun onClick(id: Int)
+        fun onClick(item: Recipe)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -50,7 +60,7 @@ class RecipesAdapter(private val listener: onItemClickListener) :
         }
 
         override fun onClick(v: View?) {
-            listener.onClick(item.id)
+            listener.onClick(item)
         }
 
     }

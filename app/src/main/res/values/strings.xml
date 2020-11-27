@@ -1,94 +1,503 @@
 <resources>
-    <string name="app_name">Resep Mama</string>
+    <string name="app_name">Resep Mama Nusantara</string>
     <string name="title_activity_detail_recipe">ScrollingActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+    <string name="recipe_1">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 10 btg kacang panjang, potong-potong <br/>
+   - 150 gr tempe, potong korek api <br/>
+   - 2 bh jagung muda, potong serong <br/>
+   - 1/2 bh tomat, buang bijinya iris memanjang <br/>
+   - 150 ml air <br/>
+   - Minyak untuk menggoreng dan menumis <br/>
+   <br/><strong>Bumbu :</strong><br/>
+   - 6 siung bawang merah dan 3 siung bawang putih, iris tipis <br/>
+   - 1 bh cabai merah, iris tipis <br/>
+   - 1 lbr daun jeruk, iris tipis <br/>
+   - 1 sdt kecap manis <br/>
+   - 1 bks SAORI® Saus Tiram <br/>
+   - Garam secukupnya <br/>
+   - Merica secukupnya <br/>
+   <br/>
+</div>
 
-        "Bold, graphic, intentional.\n\n"
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Goreng tempe hingga agak kering, angkat dan sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Tumis bawang putih dan bawang merah hingga harum.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Tambahkan kacang panjang, jagung muda dan air. Masak hingga layu, lalu masukkan daun jeruk dan cabai merah.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Tambahkan tempe, <b>SAORI&reg; Saus Tiram</b>, kecap manis, tomat, garam, dan merica. Aduk rata, angkat dan sajikan.</p>
+         </div>
+      </div>
+   </div>
+</div>
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
+        ]]>
+    </string>
 
-        "Motion provides meaning.\n\n"
+    <string name="recipe_2">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 1 ekor Ayam Kampung <br/>
+   - 5 siung Bawang Putih <br/>
+   - 2 btr Kemiri <br/>
+   - 3 bh Cabai Merah Besar <br/>
+   - 2 bh Cabai Rawit <br/>
+   - ½ sdt Terasi <br/>
+   - 1 ½ sdm Gula Merah <br/>
+   - 1 sdt AJI-NO-MOTO® <br/>
+   - 1/2 sdm Garam <br/>
+   - 150 ml Santan Encer <br/>
+   - 600 ml Minyak Goreng <br/>
+   <br/><strong> Bahan pelengkap :</strong><br/>
+   Sambal dan Jeruk Limau <br/>
+</div>
+<div class="l-buy-cta">
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Buat bumbu halus: masukkan bawang putih, kemiri, cabai merah, cabai rawit dan terasi, haluskan, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak goreng 2 sdm, tumis bumbu halus, tambahkan <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, garam, gula merah, santan dan daging ayam, masak hingga bumbu meresap, angkat.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Panaskan sisa minyak goreng, masukkan ayam, goreng selama 3-5 menit, angkat. Panggang daging ayam sambil diolesi sisa bumbu hingga matang. Angkat, sajikan</p>
+         </div>
+      </div>
+   </div>
+</div>
 
-        "3D world.\n\n"
+        ]]>
+    </string>
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    <string name="recipe_3">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 250 gr Daging Sapi Rebus <br/>
+   - 150 gr Kentang kecil <br/>
+   - 6 bh Cabai Rawit Merah <br/>
+   - 2 sdm Cabai Giling <br/>
+   - 1 btg Serai <br/>
+   - 2 lbr Daun Salam <br/>
+   - 1 sdm Kecap Manis <br/>
+   - 1 bks Sajiku® Bumbu Sayur Asem <br/>
+   - 2 sdm Minyak Goreng <br/>
+   - 600 ml Air   <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Potong kentang kecil menjadi 2 bagian, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak goreng, masukkan daging, kentang, cabai giling, cabai rawit, serai dan daun salam, aduk rata.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Tambahkan air, kecap manis dan <b>Sajiku&reg; Bumbu Sayur Asem</b>, masak hingga air menyusut, daging dan kentang empuk, angkat dan sajikan.</p>
+         </div>
+      </div>
+   </div>
+</div>
+        ]]>
+    </string>
 
-        "Light and shadow.\n\n"
+    <string name="recipe_4">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 1 ekor Ayam Kampung <br/>
+   - 4 siung Bawang Putih <br/>
+   - 1 btg Serai <br/>
+   - 1 sdm Garam <br/>
+   - 1 sdt AJI-NO-MOTO® <br/>
+   - 500 ml Air Kelapa <br/>
+   - 1 sdm Air Jeruk Nipis <br/>
+   - 500 ml Minyak Goreng   <br/>
+   <br/>
+   <br/><strong>Sambal Ayam Pop:</strong><br/>
+   - 3 bh Cabai Merah Keriting <br/>
+   - 3 siung Bawang Merah <br/>
+   - 1 siung Bawang Putih <br/>
+   - ¼  sdt Garam <br/>
+   - ½  sdt AJI-NO-MOTO® <br/>
+   - 5 sdm Minyak Goreng <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Sambal ayam pop: masukkan cabai merah keriting, bawang merah, bawang putih, garam, ½ sdt <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, haluskan, dan sisihkan. Panaskan 5 sdm minyak goreng, tumis sambal hingga matang.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Haluskan 4 siung bawang putih, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Bumbui ayam dengan air jeruk nipis, garam dan bawang putih halus, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Panaskan air kelapa dan serai, masak hingga mendidih. Masukkan ayam dan 1 sdt <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, rebus sampai ayam benar-benar matang dan empuk, angkat, buang kulitnya, tiriskan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 5</h5>
+            <p>Panaskan sisa minyak goreng, masukkan ayam sesaat, angkat dan sajikan dengan sambal.</p>
+         </div>
+      </div>
+   </div>
+</div>
+        ]]>
+    </string>
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+    <string name="recipe_5">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 500 gr Daging dan Jeroan Sapi Rebus <br/>
+   - 6 siung Bawang Merah <br/>
+   - 3 siung Bawang Putih <br/>
+   - ½ sdt Jinten <br/>
+   - 2 cm Jahe <br/>
+   - 2 cm Lengkuas <br/>
+   - 60 gr Kacang Tanah Sangrai <br/>
+   - 2 btg Serai <br/>
+   - 1 sdt AJI-NO-MOTO® <br/>
+   - 1 sdm Garam <br/>
+   - 500 ml Air Cucian Beras <br/>
+   - 600 ml Air Kaldu Sapi <br/>
+   <br/><strong> Bahan pelengkap:</strong><br/>
+   Daun Bawang Iris, Bawang Goreng, Buras, Jeruk Nipis dan Sambal Coto. <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Buat bumbu halus : masukkan bawang merah, bawang putih, jintan, jahe, lengkuas, dan kacang tanah, haluskan, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak goreng, tumis bumbu halus, tambahkan serai, aduk rata.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Tambahkan air cucian beras, air kaldu, daging dan jeroan, <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, garam , masak hingga mendidih dan daging matang.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Sajikan bersama bahan pelengkap.</p>
+         </div>
+      </div>
+   </div>
+</div>
+        ]]>
+    </string>
 
-        "Resting elevation.\n\n"
+    <string name="recipe_6">
+        <![CDATA[
+        <div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 120 gr Daging Sapi Rebus <br/>
+   - 1 bh Belimbing Wuluh <br/>
+   - 2 bh Cabai Merah <br/>
+   - 2 bh Cabai Hijau <br/>
+   - 8 bh Cabai Rawit Hijau <br/>
+   - 8 siung Bawang Merah <br/>
+   - 2 siung Bawang Putih <br/>
+   - 1 btg Serai <br/>
+   - 1 sdm Keluak <br/>
+   - 1 bks Sajiku® Bumbu Sayur Asem <br/>
+   - 400 ml Air <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Haluskan keluak dengan 100 ml air, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Iris cabai merah, cabai hijau, bawang merah, bawang putih dan belimbing sayur, potong daging sapi ukuran dadu, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Panaskan minyak goreng, tumis cabai merah, cabai hijau, cabai rawit hijau, bawang merah, bawang putih, serai, keluak hingga harum, tambahkan sisa air, daging rebus dan <b>Sajiku&reg; Bumbu Sayur Asem</b>.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Masak hingga mendidih dan matang, angkat lalu sajikan.</p>
+         </div>
+      </div>
+   </div>
+</div>
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
+        ]]>
+    </string>
 
-        "Component elevations.\n\n"
+    <string name="recipe_7">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 200 gr Daging Sapi Potong Dadu <br/>
+   - 2 siung Bawang Merah <br/>
+   - 1 siung Bawang Putih <br/>
+   - 1 sdt Ketumbar <br/>
+   - 1 ruas Kunyit <br/>
+   - 1 bks SAORI® Saus Teriyaki <br/>
+   - 2 sdm Minyak Goreng <br/>
+   - 12 bh Tusuk Sate <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Buat bumbu halus : masukkan bawang merah, bawang putih, kunyit dan ketumbar, haluskan, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak goreng, tumis bumbu halus, tambahkan 1 bks <b>SAORI&reg; Saus Teriyaki</b>, aduk rata, angkat.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Campurkan bumbu dengan daging sapi, aduk rata, tusukkan pada tusuk sate lalu panggang hingga matang, angkat, sajikan bersama bahan pelengkap.</p>
+         </div>
+      </div>
+   </div>
+</div>
 
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+        ]]>
+    </string>
 
-        "Responsive elevation and dynamic elevation offsets.\n\n"
+    <string name="recipe_8">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 1 bh Dada Ayam Utuh (400 gr) <br/>
+   - 8 siung Bawang Merah <br/>
+   - 4 siung Bawang Putih <br/>
+   - 2 lbr Daun Salam <br/>
+   - 2 btg Serai <br/>
+   - 1 btg Seledri <br/>
+   - 3 btr Kapulaga <br/>
+   - 4 btr Cengkeh <br/>
+   - ½ btr Pala <br/>
+   - 1 sdt AJI-NO-MOTO® <br/>
+   - 1 sdm Garam <br/>
+   - 3 sdm Minyak Goreng <br/>
+   - 800 ml Air <br/>
+   <br/><strong> Bahan pelengkap:</strong><br/>
+   Telur rebus, Soun, Perkedel, Bawang Goreng,Jeruk Nipis dan Sambal. <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Buat bumbu halus: masukkan bawang merah dan bawang putih, haluskan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak, tumis bumbu halus, tambahkan serai, daun salam, cengkeh, pala dan kapulaga, aduk rata.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Tambahkan air, seledri, ayam, <b>AJI&#8209;NO&#8209;MOTO&reg;</b> dan garam , masak hingga mendidih dan ayam matang, angkat ayam dan suwir-suwir.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Masukan kembali suwiran ayam ke dalam kuah soto, masak hingga mendidih, angkat lalu sajikan bersama bahan pelengkap.</p>
+         </div>
+      </div>
+   </div>
+</div>
+        ]]>
+    </string>
 
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
+    <string name="recipe_9">
+        <![CDATA[
+        <div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 1 ekor Ikan Bandeng <br/>
+   - 4 siung Bawang Merah <br/>
+   - 4 siung Bawang Putih <br/>
+   - 2 sdm Bawang Goreng <br/>
+   - 1 bh Cabai Merah <br/>
+   - 5 bh Cabai Rawit <br/>
+   - 1 btg Daun Bawang <br/>
+   - 2 ruas Kunyit <br/>
+   - 6 sdm Gula Merah <br/>
+   - 1 sdt AJI-NO-MOTO® <br/>
+   - 1 sdm Garam <br/>
+   - 120 ml Air Asam Jawa <br/>
+   - 3 sdm Minyak Goreng <br/>
+   - 500 ml Air <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Keprek kunyit, potong bandeng menjadi 4 bagian, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Iris bawang merah, bawang putih, cabai merah dan daun bawang, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Panaskan minyak, tumis bawang merah, bawang putih, cabai merah, cabai rawit, kunyit, daun bawang, dan bawang goreng Tambahkan air, air asam jawa, gula merah, <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, dan garam, masak hingga mendidih.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Masukkan bandeng, masak hingga matang, angkat dan sajikan.</p>
+         </div>
+      </div>
+   </div>
+</div>
 
-        "Avoiding elevation interference.\n\n"
+        ]]>
+    </string>
 
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
+    <string name="recipe_10">
+        <![CDATA[
+<div class="ingredients-col">
+   <h4>Bahan Bahan</h4>
+   - 1 ekor Ayam (12 potong) <br/>
+   - 8 bh Cabai Rawit Hijau <br/>
+   - 3 bh Cabai Merah Besar <br/>
+   - 4 daun Jeruk Purut <br/>
+   - 1 lbr Daun Pandan <br/>
+   - 1 ikat Daun Kemangi <br/>
+   - 1 bks Sajiku® Bumbu Ayam Goreng <br/>
+   - 3 sdm Minyak Goreng <br/>
+   - 300 ml Santan <br/>
+   - 400 ml Air <br/>
+</div>
+<div class="how-to">
+   <h4>Cara Memasak</h4>
+   <div class="row">
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 1</h5>
+            <p>Haluskan cabai merah, sisihkan.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 2</h5>
+            <p>Panaskan minyak goreng, masukkan ayam, masak hingga ¾ matang.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 3</h5>
+            <p>Tambahkan cabai giling, daun jeruk, daun pandan, aduk rata.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 4</h5>
+            <p>Masukkan santan, air, cabai rawit, <b>Sajiku&reg; Bumbu Ayam Goreng</b>, aduk rata, masak hingga meresap dan kuah mengental.</p>
+         </div>
+      </div>
+      <div class="how-step">
+         <div class="how-step--inner">
+            <h5>Langkah 5</h5>
+            <p>Tambahkan daun kemangi, aduk sesaat. Angkat dan sajikan.</p>
+         </div>
+      </div>
+   </div>
+</div>
+        ]]>
     </string>
     <string name="action_settings">Settings</string>
 </resources>
