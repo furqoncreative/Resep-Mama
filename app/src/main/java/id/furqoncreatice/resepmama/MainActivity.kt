@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity(), RecipesAdapter.onItemClickListener {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_search, menu)
-
         val searchItem: MenuItem? = menu?.findItem(R.id.action_search)
         val searchView: SearchView = searchItem?.actionView as SearchView
 
@@ -42,6 +41,17 @@ class MainActivity : AppCompatActivity(), RecipesAdapter.onItemClickListener {
             }
         })
         return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // Handle item selection
+        return when (item.itemId) {
+            R.id.action_about -> {
+                startActivity(Intent(applicationContext, AboutActivity::class.java))
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     private fun filter(text: String) {
@@ -63,70 +73,99 @@ class MainActivity : AppCompatActivity(), RecipesAdapter.onItemClickListener {
 
     fun setData() {
         items = ArrayList()
-        items.add(
-            Recipe(
-                "Oseng Tempe Kacang Panjang",
-                "https://www.dapurumami.com/uploads/recipe/5XjRp/oseng-tempe-kacang-panjang.jpg",
-                resources.getString(
-                    R.string.recipe_1
-                ),
-                "https://www.dapurumami.com/resep/oseng-tempe-kacang-panjang-5XjRp"
-            )
-        )
-        items.add(
-            Recipe(
-                "Ayam Taliwang AJI‑NO‑MOTO®",
-                "https://www.dapurumami.com/uploads/recipe/jMfYZ/1508136197.png",
-                resources.getString(
-                    R.string.recipe_2
-                ),
-                "https://www.dapurumami.com/resep/ayam-taliwang-aji-no-moto-jMfYZ"
-            )
-        )
-        items.add(
-            Recipe(
-                "Daging Asam Padeh Sajiku®",
-                "https://www.dapurumami.com/uploads/recipe/LfnTn/1507514126.png",
-                resources.getString(
-                    R.string.recipe_3
-                ),
-                "https://www.dapurumami.com/resep/daging-asam-padeh-sajiku-LfnTn"
-            )
-        )
+
         items.add(
             Recipe(
                 "Ayam Pop AJI‑NO‑MOTO®",
-                "https://www.dapurumami.com/uploads/recipe/6zBuB/1500959043.png",
+                R.drawable.img_ayam_pop,
                 resources.getString(
                     R.string.recipe_4
                 ),
                 "https://www.dapurumami.com/resep/ayam-pop-aji-no-moto-6zBuB"
             )
         )
+
+        items.add(
+            Recipe(
+                "Ayam Taliwang AJI‑NO‑MOTO®",
+                R.drawable.img_ayam_taliwang,
+                resources.getString(
+                    R.string.recipe_2
+                ),
+                "https://www.dapurumami.com/resep/ayam-taliwang-aji-no-moto-jMfYZ"
+            )
+        )
+
+        items.add(
+            Recipe(
+                "Ayam Tuturuga Manado",
+                R.drawable.img_ayam_tuturaga,
+                resources.getString(
+                    R.string.recipe_10
+                ),
+                "https://www.dapurumami.com/resep/ayam-tuturuga-manado-PZHf1"
+            )
+        )
+
+        items.add(
+            Recipe(
+                "Bandeng Pallumara AJI‑NO‑MOTO®",
+                R.drawable.img_bandeng,
+                resources.getString(
+                    R.string.recipe_9
+                ),
+                "https://www.dapurumami.com/resep/bandeng-pallumara-aji-no-moto-6glSh"
+            )
+        )
+
         items.add(
             Recipe(
                 "Coto Makassar AJI‑NO‑MOTO®",
-                "https://www.dapurumami.com/uploads/recipe/qrjkJ/1500021967.png",
+                R.drawable.img_coto,
                 resources.getString(
                     R.string.recipe_5
                 ),
                 "https://www.dapurumami.com/resep/coto-makassar-aji-no-moto-qrjkJ"
             )
         )
+
+        items.add(
+            Recipe(
+                "Daging Asam Padeh Sajiku®",
+                R.drawable.img_daging,
+                resources.getString(
+                    R.string.recipe_3
+                ),
+                "https://www.dapurumami.com/resep/daging-asam-padeh-sajiku-LfnTn"
+            )
+        )
+
         items.add(
             Recipe(
                 "Garang Asem Daging Sajiku®",
-                "https://www.dapurumami.com/uploads/recipe/KmQXn/1499741947.png",
+                R.drawable.img_garang,
                 resources.getString(
                     R.string.recipe_6
                 ),
                 "https://www.dapurumami.com/resep/garang-asem-daging-sajiku-KmQXn"
             )
         )
+
+        items.add(
+            Recipe(
+                "Oseng Tempe Kacang Panjang",
+                R.drawable.img_orek_tempe,
+                resources.getString(
+                    R.string.recipe_1
+                ),
+                "https://www.dapurumami.com/resep/oseng-tempe-kacang-panjang-5XjRp"
+            )
+        )
+
         items.add(
             Recipe(
                 "Sate Maranggi Saus Teriyaki",
-                "https://www.dapurumami.com/uploads/recipe/IDOK5/1499424078.png",
+                R.drawable.img_sate,
                 resources.getString(
                     R.string.recipe_7
                 ),
@@ -136,31 +175,11 @@ class MainActivity : AppCompatActivity(), RecipesAdapter.onItemClickListener {
         items.add(
             Recipe(
                 "Soto Banjar AJI‑NO‑MOTO®",
-                "https://www.dapurumami.com/uploads/recipe/TnrWE/1497007091.png",
+                R.drawable.img_soto_banjar,
                 resources.getString(
                     R.string.recipe_8
                 ),
                 "https://www.dapurumami.com/resep/soto-banjar-aji-no-moto-TnrWE"
-            )
-        )
-        items.add(
-            Recipe(
-                "Bandeng Pallumara AJI‑NO‑MOTO®",
-                "https://www.dapurumami.com/uploads/recipe/6glSh/1496025787.png",
-                resources.getString(
-                    R.string.recipe_9
-                ),
-                "https://www.dapurumami.com/resep/bandeng-pallumara-aji-no-moto-6glSh"
-            )
-        )
-        items.add(
-            Recipe(
-                "Ayam Tuturuga Manado",
-                "https://www.dapurumami.com/uploads/recipe/PZHf1/1495513278.png",
-                resources.getString(
-                    R.string.recipe_10
-                ),
-                "https://www.dapurumami.com/resep/ayam-tuturuga-manado-PZHf1"
             )
         )
         adapter.setItems(items)

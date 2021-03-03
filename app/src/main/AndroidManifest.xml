@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ResepMama">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".AboutActivity"
+            android:label="About"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.ResepMama.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,11 +24,8 @@
         </activity>
         <activity
             android:name=".DetailRecipeActivity"
-            android:label="@string/title_activity_detail_recipe"
             android:theme="@style/Theme.ResepMama.NoActionBar" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

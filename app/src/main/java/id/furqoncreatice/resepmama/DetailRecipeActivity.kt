@@ -24,7 +24,6 @@ class DetailRecipeActivity : AppCompatActivity() {
 
         setData()
 
-
     }
 
     fun setData() {
@@ -39,11 +38,20 @@ class DetailRecipeActivity : AppCompatActivity() {
             Toast.makeText(this, "DATA NULL", Toast.LENGTH_SHORT).show()
         }
 
-        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            val url = item.source
-            val i = Intent(Intent.ACTION_VIEW)
-            i.data = Uri.parse(url)
-            startActivity(i)
+        findViewById<FloatingActionButton>(R.id.ic_web).setOnClickListener { view ->
+//            val url = item.source
+//            val i = Intent(Intent.ACTION_VIEW)
+//            i.data = Uri.parse(url)
+//            startActivity(i)
+
+            val sendIntent: Intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, "Resep : ${item.title} \n ${item.source}")
+                type = "text/plain"
+            }
+
+            val shareIntent = Intent.createChooser(sendIntent, null)
+            startActivity(shareIntent)
         }
     }
 

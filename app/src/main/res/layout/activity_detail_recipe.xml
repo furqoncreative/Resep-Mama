@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/white"
     tools:context=".DetailRecipeActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -28,8 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:tintMode="src_over"
-                app:tint="#80000000" />
+                android:tintMode="src_over" />
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -45,13 +45,16 @@
         android:id="@+id/content"
         layout="@layout/content_scrolling" />
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/ic_web"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
-        app:srcCompat="@drawable/ic_action_source" />
+        android:backgroundTint="@color/teal_200"
+        app:srcCompat="@drawable/ic_stat_share" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

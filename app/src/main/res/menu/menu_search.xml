@@ -1,11 +1,18 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="id.furqoncreatice.resepmama.DetailRecipeActivity">
+    tools:context="id.furqoncreatice.resepmama.MainActivity">
     <item
         android:id="@+id/action_search"
         android:icon="@drawable/ic_action_search"
         app:showAsAction="always|collapseActionView"
         app:actionViewClass="androidx.appcompat.widget.SearchView"
         android:title="Search"/>
+
+    <item
+        android:id="@+id/action_about"
+        android:icon="@drawable/ic_stat_user"
+        app:showAsAction="always|collapseActionView"
+        android:title="About"/>
 </menu>

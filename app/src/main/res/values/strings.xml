@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Resep Mama Nusantara</string>
-    <string name="title_activity_detail_recipe">ScrollingActivity</string>
 
-    <string name="recipe_1">
-        <![CDATA[
+    <string name="recipe_1"><![CDATA[
 <div class="ingredients-col">
    <h4>Bahan Bahan</h4>
    - 10 btg kacang panjang, potong-potong <br/>
@@ -27,7 +25,7 @@
    <h4>Cara Memasak</h4>
    <div class="row">
       <div class="how-step">
-         <div class="how-step--inner">
+         <div class="how-step—inner">
             <h5>Langkah 1</h5>
             <p>Goreng tempe hingga agak kering, angkat dan sisihkan.</p>
          </div>
@@ -52,9 +50,7 @@
       </div>
    </div>
 </div>
-
-        ]]>
-    </string>
+    ]]></string>
 
     <string name="recipe_2">
         <![CDATA[
@@ -88,7 +84,7 @@
       <div class="how-step">
          <div class="how-step--inner">
             <h5>Langkah 2</h5>
-            <p>Panaskan minyak goreng 2 sdm, tumis bumbu halus, tambahkan <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, garam, gula merah, santan dan daging ayam, masak hingga bumbu meresap, angkat.</p>
+            <p>Panaskan minyak goreng 2 sdm, tumis bumbu halus, tambahkan <b>AJI‑NO‑MOTO®</b>, garam, gula merah, santan dan daging ayam, masak hingga bumbu meresap, angkat.</p>
          </div>
       </div>
       <div class="how-step">
@@ -171,7 +167,7 @@
       <div class="how-step">
          <div class="how-step--inner">
             <h5>Langkah 1</h5>
-            <p>Sambal ayam pop: masukkan cabai merah keriting, bawang merah, bawang putih, garam, ½ sdt <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, haluskan, dan sisihkan. Panaskan 5 sdm minyak goreng, tumis sambal hingga matang.</p>
+            <p>Sambal ayam pop: masukkan cabai merah keriting, bawang merah, bawang putih, garam, ½ sdt <b>AAJI‑NO‑MOTO®</b>, haluskan, dan sisihkan. Panaskan 5 sdm minyak goreng, tumis sambal hingga matang.</p>
          </div>
       </div>
       <div class="how-step">
@@ -240,7 +236,7 @@
       <div class="how-step">
          <div class="how-step--inner">
             <h5>Langkah 3</h5>
-            <p>Tambahkan air cucian beras, air kaldu, daging dan jeroan, <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, garam , masak hingga mendidih dan daging matang.</p>
+            <p>Tambahkan air cucian beras, air kaldu, daging dan jeroan, <b>AJI‑NO‑MOTO®</b>, garam , masak hingga mendidih dan daging matang.</p>
          </div>
       </div>
       <div class="how-step">
@@ -381,7 +377,7 @@
       <div class="how-step">
          <div class="how-step--inner">
             <h5>Langkah 3</h5>
-            <p>Tambahkan air, seledri, ayam, <b>AJI&#8209;NO&#8209;MOTO&reg;</b> dan garam , masak hingga mendidih dan ayam matang, angkat ayam dan suwir-suwir.</p>
+            <p>Tambahkan air, seledri, ayam, <b>AJI‑NO‑MOTO®</b> dan garam , masak hingga mendidih dan ayam matang, angkat ayam dan suwir-suwir.</p>
          </div>
       </div>
       <div class="how-step">
@@ -432,7 +428,7 @@
       <div class="how-step">
          <div class="how-step--inner">
             <h5>Langkah 3</h5>
-            <p>Panaskan minyak, tumis bawang merah, bawang putih, cabai merah, cabai rawit, kunyit, daun bawang, dan bawang goreng Tambahkan air, air asam jawa, gula merah, <b>AJI&#8209;NO&#8209;MOTO&reg;</b>, dan garam, masak hingga mendidih.</p>
+            <p>Panaskan minyak, tumis bawang merah, bawang putih, cabai merah, cabai rawit, kunyit, daun bawang, dan bawang goreng Tambahkan air, air asam jawa, gula merah, <b>AJI‑NO‑MOTO®</b>, dan garam, masak hingga mendidih.</p>
          </div>
       </div>
       <div class="how-step">
